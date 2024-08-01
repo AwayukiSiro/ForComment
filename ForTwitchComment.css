@@ -1,4 +1,35 @@
-@charset "utf-8";
+/* 背景透過 */
+*{
+  background: transparent !important;
+}
+
+/*コメント以外の部分の消去*/
+.stream-chat-header,
+.tw-z-default,
+.chat-input,
+.chat-line__status {
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+}
+
+/*ユーザ名の後ろのコロンを消去*/
+span[data-test-selector="chat-message-separator"] {
+  display: none !important;
+}
+
+/*チャットバッジ消去*/
+.chat-line__username-container span:first-child {
+  display: none !important;
+}
+
+/*ユーザ名コンテナ*/
+.chat-line__username {
+  
+}
+
+/* @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
@@ -10,9 +41,9 @@ body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__messag
 	margin: 0 auto!important;
 	overflow: hidden!important;
 	font-weight: bold!important;
-	font-size: 16px!important;
+	font-size: 10px!important;
 	background-color: rgba(0,0,0,0)!important;
-	line-height:1.8;
+	line-height:1.2;
   letter-spacing: 0.1em;
 }
 
@@ -102,4 +133,4 @@ span[aria-hidden="true"] {
 
 .paid-pinned-chat-message-content-wrapper{
   display: none!important;
-}
+} */
