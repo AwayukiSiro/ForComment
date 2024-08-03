@@ -35,5 +35,5 @@ span[aria-hidden="true"]{
 
 /* ユーザー名コンテナ */
 .chat-line__username {
-
+  visibility: visible !important;
 }
