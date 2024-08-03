@@ -25,7 +25,7 @@ span[aria-hidden="true"]{
 /*ユーザー名のスタイル*/
 /* コンテナ */
 .chat-line__username-container{
-
+  visibility: visible !important;
 }
 
 /*チャットバッチ消去*/
