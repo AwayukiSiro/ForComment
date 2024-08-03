@@ -22,6 +22,10 @@ span[aria-hidden="true"]{
     display: none !important;
 }
 
+.chat-line__username-container{
+  
+}
+
 /*チャットバッチ消去*/
 .chat-line__username-container span:first-child{
   display: none !important;
