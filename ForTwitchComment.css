@@ -22,11 +22,18 @@ span[aria-hidden="true"]{
     display: none !important;
 }
 
+/*ユーザー名のスタイル*/
+/* コンテナ */
 .chat-line__username-container{
-  
+
 }
 
 /*チャットバッチ消去*/
 .chat-line__username-container span:first-child{
   display: none !important;
+}
+
+/* ユーザー名コンテナ */
+.chat-line__username {
+
 }
