@@ -7,7 +7,10 @@
 .stream-chat-header,
 .tw-z-default,
 .chat-input,
-.chat-line__status {
+.chat-line__status,
+.cmZlUu.Layout-sc-1xcs6mc-0,
+.chat-signup-gate__overlay-gradient.gdhlYw.Layout-sc-1xcs6mc-0,
+.chat-signup-gate-overlay.bANGbT.Layout-sc-1xcs6mc-0{
     visibility: hidden !important;
     width: 0 !important;
     height: 0 !important;
