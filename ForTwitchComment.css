@@ -16,3 +16,13 @@
     height: 0 !important;
     border: none !important;
 }
+
+/*名前の後ろのコロンを消去*/
+span[aria-hidden="true"]{
+    display: none !important;
+}
+
+/*チャットバッチ消去*/
+.chat-line__username-container span:first-child{
+  display: none !important;
+}
